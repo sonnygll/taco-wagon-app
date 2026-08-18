@@ -1,5 +1,5 @@
 environment = dev
-prefix = taco
+prefix = taco-wagon
 region = us-west-2
-vpc_address_range = 
-vpc_public_subnet_ranges = 
+vpc_address_range = "10.0.0.0/16"
+vpc_public_subnet_ranges = ["10.1.0.0/24", "10.2.0.0/24"]
